@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-PH">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Independent P2 Digital Works pitch demo for Star of the Sea High School, Inc. Provisional design and fictional school management records."
+    />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#102b46" />
+    <title>Star of the Sea · Website proposal</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="app"></div>
+    <div
+      id="notice"
+      role="status"
+      aria-live="polite"
+      class="toast"
+      hidden
+    ></div>
+    <dialog id="confirm-dialog" aria-labelledby="confirm-title">
+      <form method="dialog">
+        <h2 id="confirm-title">Reset this demo?</h2>
+        <p id="confirm-text">
+          This removes fictional changes saved in this browser and restores the
+          sample dataset.
+        </p>
+        <div class="actions">
+          <button value="cancel" class="button secondary" autofocus>
+            Cancel</button
+          ><button value="confirm" class="button">Reset demo</button>
+        </div>
+      </form>
+    </dialog>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
